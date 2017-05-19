@@ -1,0 +1,92 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-size:15px;
+	font-family: Georgia, serif;
+}
+#pagedaccueil {
+	background-image: url('../images/livre1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#menu {
+	position: fixed;
+	display: inline-block;
+	font-size: 0.9em;
+	left: +25%;
+	right: +25%;
+	background: none;
+	text-align: center;
+	border-bottom: 2px solid grey;
+	font-style: italic;
+}
+#menu a {
+	text-decoration: none;
+	color: grey;
+	font-size: 4em;	
+	padding: 0.5em;
+	font-style: italic;
+	text-align: center;
+	}
+#menu a:hover {
+	color: black;
+}	
+
+#footer {
+	top: +95%;
+	margin-left: +95%;
+	position: fixed;
+	display: inline-block;
+}
+img.facebook{
+	height: 4vh;
+	padding: 0;
+}
+
+#pagedaccueil {
+	min-height: 100vh;
+}
+
+#leslivresenvrac {
+	min-height: 100vh;
+	padding: 7% 5% 5% 5%;
+	margin: auto; 
+}
+#leslivresenvrac h1 {
+	text-align: center;
+	font-size: 2em;
+	color: grey;
+	font-family: Georgia, serif;
+	font-style: italic;
+	text-decoration: none;
+	margin-bottom: 0.5em;
+	/** border: 2px solid grey;**/
+}
+#leslivresenvrac h2 {
+	font-size: 1.3em;
+	color: grey;
+	font-family: Georgia, serif;
+	font-style: italic;
+	text-decoration: none;
+}
+#leslivresenvrac p {
+	text-align: center;
+	font-size: 0.9em;
+	color: grey;
+	font-family: Georgia, serif;
+	font-style: italic;
+	text-decoration: none;
+}
+#semaine {
+	float: left;
+	width: 22.5%;
+}
+.livre {
+	/** border: 2px solid grey;**/
+	padding: 30px;
+	padding-left: 50px;
+}
+#a {
+	padding: 10px;
+    text-align: center;
+	/** border: 2px solid grey;**/
+}
